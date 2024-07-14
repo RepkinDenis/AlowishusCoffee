@@ -1,0 +1,437 @@
+@media (max-width: 1440px) {
+  /* второй экран */
+  #card_centre{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  /* третий экран  */
+  .subtitle_screen3{
+    width: 512px;
+  }
+
+  /* слайдер */
+  .card__container {
+    margin-left: 15px;
+  }
+
+  .button-arrow--next {
+    right: -30px;
+  }
+
+  /* футер */
+  .copy_name{
+    margin-right: 41%;
+  }
+}
+
+@media (max-width: 430px) {
+  /* первый экран */
+  .logo_header {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+  }
+
+  .nav__item{
+    padding-left: 5%;
+  }
+
+  .info_left_text{
+    margin-left: 5%;
+  }
+
+  .screen1{
+    flex-wrap: wrap;
+    padding-top: 15%;
+  }
+
+  .header__nav{
+    flex-wrap: wrap;
+  }
+
+  .head_menu_link{
+    padding-top: 15px;
+    display: flex;
+    text-align: center;
+    padding-left: 8%;
+    margin-bottom: 30px;
+  }
+
+  .basket{
+    margin-left: 14%;
+  }
+
+  #name{
+    font-size: 62px;
+  }
+
+  .info_left{
+    width: 90%;
+    height: 530px;
+    text-align: center;
+  }
+  
+  .info_left_text{
+    width: 90%;
+    height: 350px;
+  }
+
+  .info_left_button{
+    display: flex;
+    flex-direction: column;
+    padding-left: 16%;
+    height: 90px;
+    width: 100%;
+  }
+
+  #shop{
+    margin-top: 10px;
+    margin-left: -16%;
+  }
+
+  .info_right{
+    width: 320px;
+    height: 330px;
+    background-size: contain;
+  }
+
+  .rating{
+    margin-top: 45%;
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    padding-left: 15px;
+  }
+  
+  #rating_text{
+    font-size: 10px;
+  }
+  
+  img[src="assets/images/reward.svg"] {
+    padding-top: 3%;
+    padding-left: 70%;
+    max-height: 70px;
+  }
+
+  /* второй экран */
+  #title_offer{
+    margin-bottom: 40px;
+    width: 80%;
+    margin-left: 13%;
+  }
+
+  .title_card{
+    text-align: center;
+  }
+
+  .cards{
+    flex-wrap: wrap;
+  }
+
+  .card_screen2{
+    width: 100%;
+    height: 560px;
+    margin-bottom: 40px;
+  }
+
+  #card_centre{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+
+  /* третий экран */
+  .screen3{
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+
+  .title_screen3,
+  .subtitle{
+    text-align: center;
+  }
+
+  .info_screen3{
+    margin-left: 0;
+  }
+
+  .button_screen3{
+    margin-top: 30px;
+    margin-left: 20%;
+  }
+
+  .screen4{
+    margin-top: 60px;
+  }
+
+  /* слайдер */
+  .subtitle_screen3{
+    width: 80%;
+    margin-left: 13%;
+  }
+
+  .button-arrow--prev,
+  .button-arrow--next {
+    display: none;
+  }
+
+  .slider-wrapper {
+    padding-inline: 0;
+  }
+
+  .container_slider{
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .card__header{
+    width: 100%;
+    height: auto;
+  }
+
+  .card_person_name{
+    margin-right: 5%;
+    margin-bottom: 15px;
+
+  }
+
+  .card__container {
+    margin-left: 10%;
+    width: 84%;
+    height: 670px;
+  }
+
+  article.card.swiper-slide {
+    width: 320px;
+  } 
+
+  .card__content{
+    padding-right: 30px;
+  }
+
+  /* футер */
+  .footer{
+    margin-left: 10%;
+    margin-right: 5%;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .footer_link a{
+    margin-left: 20%;
+  }
+
+  .footer_title{
+    font-size: 35px;
+  }
+
+  .footer_text{
+    font-size: 25px;
+  }
+
+  .footer_text_left{
+    margin-left: 13%;
+  }
+
+  .button_footer{
+    margin-left: 0;
+  }
+
+  input[type="email" i]{
+    width: 100%;
+  }
+
+  .button_social_media{
+    text-align: left;
+  }
+
+  .social_media{
+    margin-left: 18px;
+  }
+
+  .info_footer_right{
+    margin-left: 0px;
+  }
+
+  .button_subscribe{
+    margin-left: 0;
+  }
+
+  .copytright{
+    margin-top: 30px;
+  }
+
+  .copy_name{
+    font-size: 16px;
+    margin-right: 10%;
+  }
+
+  .copy{
+    font-size: 16px;
+  }
+  
+} 
+
+@media (max-width: 380px) {
+  /* первый экран */
+  .info_left_text {
+    margin-left: 4%;
+  }
+
+  .info_left_button{
+    padding-left: 12%;
+    margin-top: 40px;
+  }
+
+  #name{
+    font-size: 56px;
+  }
+
+  /* второй экран */
+  .title{
+    font-size: 56px;
+  }
+
+  #shop {
+    margin-left: -10%;
+  }
+
+  .card_screen2{
+    height: 600px;
+  }
+
+  /* слайдер */
+  .card__container {
+    height: 620px;
+  }
+
+  .card_person_name {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .card_name_and_stars{
+    margin-top: 25px;
+  }
+
+  .card__content {
+    padding-right: 25px;
+  }
+
+  .card__description {
+    font-size: 18px;
+  }
+
+  .card_gold-stars {
+    margin-top: 18px;
+    height: 25px;
+  }
+
+  /* футер */
+  .sub{
+    margin-left: 0;
+  }
+
+  .contact {
+    margin-left: 0;
+  }
+
+  input[type="email" i]{
+    margin-left: 0;
+  }
+
+  .copy_name{
+    font-size: 14px;
+    margin-right: 5%;
+  }
+
+  .copy{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 325px) {
+  /* первый экран */
+  .gift {
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #name{
+    font-size: 48px;
+  }
+
+  .info_left_button {
+    padding-left: 6%;
+    margin-top: 75px;
+  }
+
+  .info_right {
+    width: 320px;
+    height: 285px;
+  }
+
+  /* второй экран */
+  .title {
+    font-size: 48px;
+  }
+
+  .card_screen2{
+    height: 635px;
+  }
+
+  /* третий экран */
+  .button_screen3 {
+    margin-top: 20px;
+    margin-left: 13%;
+  }
+
+  /* слайдер */
+  .stars{
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  .card__container {
+    margin-left: 8%;
+    height: 580px;
+  }
+
+  .card_person_name {
+    font-size: 16px;
+  }
+  
+  .card__description {
+    font-size: 16px;
+  }
+
+  .card_gold-stars {
+    height: 18px;
+  }
+
+  /* футер */
+  .footer_text {
+    font-size: 20px;
+  }
+
+  .social_media {
+    margin-left: 3px;
+  }
+
+  .button_phone{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .copy_name{
+    font-size: 12px;
+    margin-right: 3%;
+  }
+
+  .copy{
+    font-size: 12px;
+  }
+}

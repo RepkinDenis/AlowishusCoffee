@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alowishus Coffee</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/media.css">
+
+  <!-- Swiper -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="js/slider.js" defer></script>
+</head>
+
+<body>
+  <!-- хедер -->
+  <header class="header">
+    <div class="container">
+      <nav class="header__nav">
+        <img class="logo_header" src="assets/images/logo.svg" alt="logo" class="header__logo">
+
+        <div class="head_menu_link">
+            <a href="#" class="nav__item">Cafe Menu</a>
+            <a href="#" class="nav__item">About Us</a>
+            <a href="#" class="nav__item">Find Us</a>
+            <a href="#" class="nav__item">Alowishus Catering</a>
+        </div>
+
+        <button class="basket">
+            <img src="assets/images/bxs-basket.svg" alt="basked">
+        </button>
+        <button class="gift"> BUY GIFT VOUCHERS</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- первый экран -->
+    <div class="screen1">
+        <section class="info_left">
+            <div class="info_left_text">
+                <p id="name">Alowishus Delicious Coffee</p>
+                <p id="offer">A drink from the ‘My Alowishus’ bottled brews <br> range OR grab one of our delicious coffee’s.</p>
+            </div>
+            <div class="info_left_button">
+                <button class="download"> DOWNLOAD APP</button>
+                <a href="#" class="nav__item" id="shop">SHOP COFFEE</a>
+            </div>
+        </section>
+
+        <section class="info_right">
+            <img src="assets/images/reward.svg" alt="glass of coffee">
+
+            <div class="rating">
+              <img src="assets/images/Stars.svg" alt="stars">
+              <p id="rating_text">4.9 out of 5 Overall Star Rating for All Local Business.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- второй экран -->
+    <div class="screen2">
+      <p class="title"> Explore Our Alowishus </p>
+      <p id="title_offer">A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.</p>
+
+      <div class="cards">
+        <article class="card_screen2">
+          <header class="header_card">
+            <p class="title_card">Our Catering</p>
+            <p class="subtitle">Alowishus Catering, delicious drop off Catering</p>
+          </header>
+  
+          <div class="content_card">
+            <img src="assets/images/food.svg" alt="food">
+          </div>
+  
+          <footer class="footer_card">
+            <button class="button_card">ORDER CATHERING</button>
+          </footer>
+        </article>
+  
+        <article class="card_screen2" id="card_centre">
+          <header class="header_card">
+            <p class="title_card">The Food</p>
+            <p class="subtitle">Our entire menu is available as dine in or takeaway.</p>
+          </header>
+  
+          <div class="content_card">
+            <img src="assets/images/fast-food.svg" alt="food">
+          </div>
+  
+          <footer class="footer_card">
+            <button class="button_card">FOOD MENU</button>
+          </footer>
+        </article>
+  
+        <article class="card_screen2">
+          <header class="header_card">
+            <p class="title_card">The Gelato</p>
+            <p class="subtitle">Life is like GELATO, enjoy it before it melts.</p>
+          </header>
+  
+          <div class="content_card">
+            <img src="assets/images/ice-cream.svg" alt="food">
+          </div>
+  
+          <footer class="footer_card">
+            <button class="button_card">DISCOVER MORE</button>
+          </footer>
+        </article>
+      </div>
+
+    </div>
+
+    <!-- третий экран -->
+    <div class="screen3">
+      <img src="assets/images/three-cups.svg" alt="three coffee cups">
+      <div class="info_screen3">
+        <p class="title title_screen3">Order Your <br> Favourite Coffee</p>
+        <p class="subtitle subtitle_screen3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+          Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <button class="button_screen3" >ORDER NOW</button>
+      </div>
+    </div>
+
+    <!-- карусель/слайдер -->
+    <div class="screen4">
+      <p class="title title_screen4"> What Our <br> Customers Say</p>
+
+      <section class="stars">
+        <p class="average_rating"> 4.9 </p> 
+        <div class="average_rating_info">
+          <img src="assets/images/gold-stars.svg" alt="stars">
+          <p class="about_rating"> based on 2452+ reviews </p>
+        </div>
+      </section>
+
+      <section class="container_slider">
+        <div class="slider-wrapper">
+    
+          <div class="swiper js-swiper">
+            <div class="swiper-wrapper">
+    
+              <article class="card swiper-slide">
+                <div class="card__container">
+                  <header class="card__header">
+                    <img src="assets/images/slider_photo2.svg" alt="slider_photo1">
+                  </header>
+                  <div class="card__content">
+                    <div class="card_name_and_stars">
+                      <p class="card_person_name">Brooklyn Simmons</p>
+                      <img class="card_gold-stars" src="assets/images/gold-stars.svg" alt="stars">
+                    </div>
+                    <p class="card__description">
+                      “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                      Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. 
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”
+                    </p>
+                  </div>
+                </div>
+              </article>
+    
+              <article class="card swiper-slide">
+                <div class="card__container">
+                  <header class="card__header">
+                    <img src="assets/images/slider_photo1.svg" alt="slider_photo1">
+                  </header>
+                  <div class="card__content">
+                    <div class="card_name_and_stars">
+                      <p class="card_person_name">Imam White</p>
+                      <img class="card_gold-stars" src="assets/images/gold-stars.svg" alt="stars">
+                    </div>
+                    <p class="card__description">
+                      “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                      Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. 
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”
+                    </p>
+                  </div>
+                </div>
+              </article>
+    
+              <article class="card swiper-slide">
+                <div class="card__container">
+                  <header class="card__header">
+                    <img src="assets/images/slider_photo2.svg" alt="slider_photo1">
+                  </header>
+                  <div class="card__content">
+                    <div class="card_name_and_stars">
+                      <p class="card_person_name">Emily Parker</p>
+                      <img class="card_gold-stars" src="assets/images/gold-stars.svg" alt="stars">
+                    </div>
+                    <p class="card__description">
+                      “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                      Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. 
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card swiper-slide">
+                <div class="card__container">
+                  <header class="card__header">
+                    <img src="assets/images/slider_photo1.svg" alt="slider_photo1">
+                  </header>
+                  <div class="card__content">
+                    <div class="card_name_and_stars">
+                      <p class="card_person_name">Sophia Andersone</p>
+                      <img class="card_gold-stars" src="assets/images/gold-stars.svg" alt="stars">
+                    </div>
+                    <p class="card__description">
+                      “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                      Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. 
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”
+                    </p>
+                  </div>
+                </div>
+              </article>
+    
+            </div>
+          </div>
+    
+          <div class="button-arrow button-arrow--prev js-arrow-prev">
+            <img src="assets/images/arrow-left.svg" alt="arrow left">
+          </div>
+    
+          <div class="button-arrow button-arrow--next js-arrow-next">
+            <img src="assets/images/arrow-right.svg" alt="arrow right">
+          </div>
+    
+        </div>
+      </section>
+    </div>
+
+
+  </main>
+
+  <!-- футер -->
+  <footer class="footer">
+    <section class="info_footer_left">
+      <img class="logo_footer" src="assets/images/logo.svg" alt="logo">
+
+      <p class="footer_text footer_text_left">We made it our mission to create community everyday and grow meaningful, 
+        lasting relationships with our staff, our suppliers and of course you, our customers.</p>
+      <p class="footer_title store">Store Locations</p>
+      <p class="footer_text footer_text_left">Find your nearest Alowishus store with opening hours, location and contact details.</p>
+
+      <div class="footer_link">
+        <a href="#" class="nav__item">FIND MY ALOWISHUS</a>
+        <img src="assets/images/arrow-right.svg" alt="arrow right">
+      </div>
+    </section>
+
+    <section class="info_footer_right">
+      <p class="footer_title contact">Contact Alowishus!</p>
+
+      <div class="button_email">
+        <button class="button_footer"> <img src="assets/images/email.svg" alt="email"> </button>
+        <p class="footer_text email">alowishus@gmai.com</p>
+      </div>
+
+      <div class="button_phone">
+        <button class="button_footer"> <img src="assets/images/phone.svg" alt="phone"> </button>
+        <p class="footer_text phone">+110 214 214 2451</p>
+      </div>
+
+      <div class="button_social_media">
+        <button class="button_footer"> <img src="assets/images/facebook.svg" alt="facebook"> </button>
+        <button class="button_footer social_media"> <img src="assets/images/instagram.svg" alt="instagram"> </button>
+        <button class="button_footer social_media"> <img src="assets/images/twitter.svg" alt="twitter"> </button>
+        <button class="button_footer social_media"> <img src="assets/images/linkedin.svg" alt="linkedin"> </button>
+      </div>
+
+      <div class="info_subscribe">
+        <p class="footer_title sub">First One’s On Us!</p>
+        <form method="post" action="../result">
+          <div>
+            <input id="email_input" type="email" name="email" placeholder="E-mail">
+          </div>
+        </form>
+        <button class="button_subscribe">SUBSCRIBE</button>
+      </div>
+    </section>
+  </footer> 
+  
+  <div class="copytright">
+    <p class="copy">Copytright © 2022 </p>
+    <p class="copy_name"> Alowishus Delicious</p>
+    <p class="copy">Terms of Use</p>
+    <p class="copy">|</p>
+    <p class="copy">Privacy Policy</p>
+  </div>
+
+</body>
+</html>
