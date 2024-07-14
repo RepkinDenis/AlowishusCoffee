@@ -1,1 +1,2 @@
-# AlowishusCoffee
+# Alowishus Coffee
+Сайт кофейни с адаптивной верской под мобильные устройства
